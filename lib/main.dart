@@ -15,49 +15,37 @@ void main() {
   ));
 }
 
-// Future<String> _loadWeatherAsset() async {
-//   return await rootBundle.loadString('testjson/weather0.json');
-// }
+class Home extends StatefulWidget {
+  @override
+  _HomeState createState() => _HomeState();
+}
 
-// Future<List<WeatherForecast>> loadWeather() async {
-//   String jsonString = await _loadWeatherAsset();
-//   final jsonResponse = json.decode(jsonString);
-//   WeatherForecast weatherForecast = WeatherForecast.fromJson(jsonResponse);
-//   // print(weatherForecast);
-//   // print(jsonResponse);
-//   // return weatherForecast;
-//   // print(weatherForecast.location);
-//   // print(weatherForecast.region);
-//   // print(weatherForecast.currentCondition);
-//   // print(weatherForecast.forecastDay.runtimeType);
-//   // print(weatherForecast.forecastDay[0].date);
-// }
+class _HomeState extends State<Home> {
+  late Future<WeatherForecast> futureWeather;
 
-// ignore: must_be_immutable
-class Home extends StatelessWidget {
-  WeatherService weatherServiceUnit = WeatherService();
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    futureWeather = fetchWeather();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(),
         body: FutureBuilder(
-          future: weatherServiceUnit.fetchWeather(),
-          builder: (context, AsyncSnapshot snapshot) {
+          //unable to call snapshot data in futurebuilder
+          future: futureWeather,
+          builder: (context, snapshot) {
             if (snapshot.hasData) {
-              return ListView.builder(
-                  // itemCount: snapshot.data,
-                  // itemCount: snapshot.data!.length,
-                  itemBuilder: (context, index) {
-                var weatherData = snapshot.data;
-                return Text('dfsf');
-              });
+              return Text(snapshot.data.toString());
             }
-            if (snapshot.hasError) {
-              return Center(
-                child: Text(snapshot.error.toString()),
-              );
-            }
+            // if (snapshot.hasError) {
+            //   return Center(
+            //     child: Text(snapshot.error.toString()),
+            //   );
+            // }
             return Center(
               child: Text(snapshot.error.toString()),
             );
