@@ -27,7 +27,7 @@ class _HomeState extends State<Home> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    futureWeather = fetchWeather();
+    futureWeather = WeatherService().fetchWeather();
   }
 
   @override
@@ -39,6 +39,7 @@ class _HomeState extends State<Home> {
           future: futureWeather,
           builder: (context, snapshot) {
             if (snapshot.hasData) {
+              var days = snapshot.data;
               return Text(snapshot.data.toString());
             }
             // if (snapshot.hasError) {
