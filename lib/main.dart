@@ -34,19 +34,20 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(),
-        body: FutureBuilder(
+        body: FutureBuilder<WeatherForecast>(
           //unable to call snapshot data in futurebuilder
           future: futureWeather,
           builder: (context, snapshot) {
             if (snapshot.hasData) {
-              var days = snapshot.data;
-              return Text(snapshot.data.toString());
+              final forecast = snapshot.data;
+              final location = forecast!.region;
+              final days = forecast.forecastDay;
+              return ListView.builder(
+                  itemCount: days.length,
+                  itemBuilder: (context, index) {
+                    return Text(days[index].date);
+                  });
             }
-            // if (snapshot.hasError) {
-            //   return Center(
-            //     child: Text(snapshot.error.toString()),
-            //   );
-            // }
             return Center(
               child: Text(snapshot.error.toString()),
             );

@@ -11,8 +11,12 @@ class WeatherService {
   Future<WeatherForecast> fetchWeather() async {
     http.Response response = await http.get(Uri.parse(callbackURL));
     if (response.statusCode == 200) {
+      WeatherForecast weather =
+          WeatherForecast.fromJson(jsonDecode(response.body));
+      print(weather.forecastDay[0].date);
+      return weather;
       //returning parsed data from json issue
-      return WeatherForecast.fromJson(jsonDecode(response.body));
+
     } else {
       throw Exception('something went wrong, ${response.statusCode}');
     }
