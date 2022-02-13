@@ -1,0 +1,736 @@
+{
+    "location": {
+        "name": "London",
+        "region": "City of London, Greater London",
+        "country": "United Kingdom",
+        "lat": 51.52,
+        "lon": -0.11,
+        "tz_id": "Europe/London",
+        "localtime_epoch": 1629568452,
+        "localtime": "2021-08-21 18:54"
+    },
+    "current": {
+        "last_updated_epoch": 1629567900,
+        "last_updated": "2021-08-21 18:45",
+        "temp_c": 21.0,
+        "temp_f": 69.8,
+        "is_day": 1,
+        "condition": {
+            "text": "Partly cloudy",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+            "code": 1003
+        },
+        "feelslike_c": 21.0,
+        "feelslike_f": 69.8,
+        "uv": 4.0
+    },
+    "forecast": {
+        "forecastday": [
+            {
+                "date": "2021-08-21",
+                "date_epoch": 1629504000,
+                "day": {
+                    "maxtemp_c": 19.4,
+                    "maxtemp_f": 66.9,
+                    "mintemp_c": 8.3,
+                    "mintemp_f": 46.9,
+                    "avgtemp_c": 16.6,
+                    "avgtemp_f": 61.9,
+                    "condition": {
+                        "text": "Patchy rain possible",
+                        "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+                    }
+                },
+                "astro": {},
+                "hour": [
+                    {
+                        "time_epoch": 1629500400,
+                        "time": "2021-08-21 00:00",
+                        "temp_c": 18.5,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629504000,
+                        "time": "2021-08-21 01:00",
+                        "temp_c": 18.1,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629507600,
+                        "time": "2021-08-21 02:00",
+                        "temp_c": 17.7,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629511200,
+                        "time": "2021-08-21 03:00",
+                        "temp_c": 17.3,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629514800,
+                        "time": "2021-08-21 04:00",
+                        "temp_c": 17.3,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629518400,
+                        "time": "2021-08-21 05:00",
+                        "temp_c": 17.3,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629522000,
+                        "time": "2021-08-21 06:00",
+                        "temp_c": 17.3,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629525600,
+                        "time": "2021-08-21 07:00",
+                        "temp_c": 18.1,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629529200,
+                        "time": "2021-08-21 08:00",
+                        "temp_c": 19.0,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629532800,
+                        "time": "2021-08-21 09:00",
+                        "temp_c": 19.8,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629536400,
+                        "time": "2021-08-21 10:00",
+                        "temp_c": 19.9,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629540000,
+                        "time": "2021-08-21 11:00",
+                        "temp_c": 20.0,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629543600,
+                        "time": "2021-08-21 12:00",
+                        "temp_c": 20.1,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629547200,
+                        "time": "2021-08-21 13:00",
+                        "temp_c": 19.6,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629550800,
+                        "time": "2021-08-21 14:00",
+                        "temp_c": 19.1,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629554400,
+                        "time": "2021-08-21 15:00",
+                        "temp_c": 18.6,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629558000,
+                        "time": "2021-08-21 16:00",
+                        "temp_c": 17.9,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629561600,
+                        "time": "2021-08-21 17:00",
+                        "temp_c": 17.3,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629565200,
+                        "time": "2021-08-21 18:00",
+                        "temp_c": 16.6,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629568800,
+                        "time": "2021-08-21 19:00",
+                        "temp_c": 15.3,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629572400,
+                        "time": "2021-08-21 20:00",
+                        "temp_c": 13.9,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629576000,
+                        "time": "2021-08-21 21:00",
+                        "temp_c": 12.6,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629579600,
+                        "time": "2021-08-21 22:00",
+                        "temp_c": 13.9,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629583200,
+                        "time": "2021-08-21 23:00",
+                        "temp_c": 15.1,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    }
+                ]
+            },
+            {
+                "date": "2021-08-22",
+                "date_epoch": 1629590400,
+                "day": {
+                    "maxtemp_c": 22.0,
+                    "maxtemp_f": 71.6,
+                    "mintemp_c": 14.2,
+                    "mintemp_f": 57.6,
+                    "avgtemp_c": 17.9,
+                    "avgtemp_f": 64.2,
+                    "condition": {
+                        "text": "Moderate rain",
+                        "icon": "//cdn.weatherapi.com/weather/64x64/day/302.png"
+                    }
+                },
+                "astro": {},
+                "hour": [
+                    {
+                        "time_epoch": 1629586800,
+                        "time": "2021-08-22 00:00",
+                        "temp_c": 16.4,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629590400,
+                        "time": "2021-08-22 01:00",
+                        "temp_c": 15.9,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Patchy rain possible"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629594000,
+                        "time": "2021-08-22 02:00",
+                        "temp_c": 15.4,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629597600,
+                        "time": "2021-08-22 03:00",
+                        "temp_c": 14.9,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Patchy rain possible"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629601200,
+                        "time": "2021-08-22 04:00",
+                        "temp_c": 14.8,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629604800,
+                        "time": "2021-08-22 05:00",
+                        "temp_c": 14.7,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Patchy rain possible"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629608400,
+                        "time": "2021-08-22 06:00",
+                        "temp_c": 14.6,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629612000,
+                        "time": "2021-08-22 07:00",
+                        "temp_c": 15.6,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Patchy rain possible"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629615600,
+                        "time": "2021-08-22 08:00",
+                        "temp_c": 16.6,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629619200,
+                        "time": "2021-08-22 09:00",
+                        "temp_c": 17.6,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Patchy rain possible"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629622800,
+                        "time": "2021-08-22 10:00",
+                        "temp_c": 18.7,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629626400,
+                        "time": "2021-08-22 11:00",
+                        "temp_c": 19.8,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Patchy rain possible"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629630000,
+                        "time": "2021-08-22 12:00",
+                        "temp_c": 20.9,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629633600,
+                        "time": "2021-08-22 13:00",
+                        "temp_c": 20.9,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629637200,
+                        "time": "2021-08-22 14:00",
+                        "temp_c": 20.9,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629640800,
+                        "time": "2021-08-22 15:00",
+                        "temp_c": 20.9,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629644400,
+                        "time": "2021-08-22 16:00",
+                        "temp_c": 20.5,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629648000,
+                        "time": "2021-08-22 17:00",
+                        "temp_c": 20.2,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629651600,
+                        "time": "2021-08-22 18:00",
+                        "temp_c": 19.8,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629655200,
+                        "time": "2021-08-22 19:00",
+                        "temp_c": 19.0,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629658800,
+                        "time": "2021-08-22 20:00",
+                        "temp_c": 18.2,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Light rain shower"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629662400,
+                        "time": "2021-08-22 21:00",
+                        "temp_c": 17.4,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629666000,
+                        "time": "2021-08-22 22:00",
+                        "temp_c": 17.0,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629669600,
+                        "time": "2021-08-22 23:00",
+                        "temp_c": 16.6,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    }
+                ]
+            },
+            {
+                "date": "2021-08-23",
+                "date_epoch": 1629676800,
+                "day": {
+                    "maxtemp_c": 22.0,
+                    "maxtemp_f": 71.6,
+                    "mintemp_c": 15.0,
+                    "mintemp_f": 59.0,
+                    "avgtemp_c": 18.2,
+                    "avgtemp_f": 64.7,
+                    "condition": {
+                        "text": "Patchy rain possible",
+                        "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+                    }
+                },
+                "astro": {},
+                "hour": [
+                    {
+                        "time_epoch": 1629673200,
+                        "time": "2021-08-23 00:00",
+                        "temp_c": 16.2,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629676800,
+                        "time": "2021-08-23 01:00",
+                        "temp_c": 15.6,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629680400,
+                        "time": "2021-08-23 02:00",
+                        "temp_c": 15.0,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629684000,
+                        "time": "2021-08-23 03:00",
+                        "temp_c": 14.4,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629687600,
+                        "time": "2021-08-23 04:00",
+                        "temp_c": 14.1,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629691200,
+                        "time": "2021-08-23 05:00",
+                        "temp_c": 13.9,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629694800,
+                        "time": "2021-08-23 06:00",
+                        "temp_c": 13.6,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629698400,
+                        "time": "2021-08-23 07:00",
+                        "temp_c": 15.0,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629702000,
+                        "time": "2021-08-23 08:00",
+                        "temp_c": 16.4,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629705600,
+                        "time": "2021-08-23 09:00",
+                        "temp_c": 17.8,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629709200,
+                        "time": "2021-08-23 10:00",
+                        "temp_c": 19.1,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Overcast"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629712800,
+                        "time": "2021-08-23 11:00",
+                        "temp_c": 20.5,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Partly cloudy"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629716400,
+                        "time": "2021-08-23 12:00",
+                        "temp_c": 21.8,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Overcast"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629720000,
+                        "time": "2021-08-23 13:00",
+                        "temp_c": 21.6,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Overcast"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629723600,
+                        "time": "2021-08-23 14:00",
+                        "temp_c": 21.3,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Overcast"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629727200,
+                        "time": "2021-08-23 15:00",
+                        "temp_c": 21.1,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Overcast"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629730800,
+                        "time": "2021-08-23 16:00",
+                        "temp_c": 20.4,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Sunny"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629734400,
+                        "time": "2021-08-23 17:00",
+                        "temp_c": 19.8,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Overcast"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629738000,
+                        "time": "2021-08-23 18:00",
+                        "temp_c": 19.1,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Sunny"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629741600,
+                        "time": "2021-08-23 19:00",
+                        "temp_c": 18.8,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Sunny"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629745200,
+                        "time": "2021-08-23 20:00",
+                        "temp_c": 18.5,
+                        "is_day": 1,
+                        "condition": {
+                            "text": "Sunny"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629748800,
+                        "time": "2021-08-23 21:00",
+                        "temp_c": 18.2,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Clear"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629752400,
+                        "time": "2021-08-23 22:00",
+                        "temp_c": 17.8,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Clear"
+                        }
+                    },
+                    {
+                        "time_epoch": 1629756000,
+                        "time": "2021-08-23 23:00",
+                        "temp_c": 17.5,
+                        "is_day": 0,
+                        "condition": {
+                            "text": "Clear"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
